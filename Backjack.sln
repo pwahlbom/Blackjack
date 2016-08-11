@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F87E199E-0478-4469-8CDA-C9060DF861F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EECDE82B-9C54-41F4-9102-D024897E6060}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Backjack", "src\Backjack\Backjack.xproj", "{B154267F-6105-45EA-B145-263756729B23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B154267F-6105-45EA-B145-263756729B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B154267F-6105-45EA-B145-263756729B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B154267F-6105-45EA-B145-263756729B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B154267F-6105-45EA-B145-263756729B23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B154267F-6105-45EA-B145-263756729B23} = {F87E199E-0478-4469-8CDA-C9060DF861F0}
+	EndGlobalSection
+EndGlobal
